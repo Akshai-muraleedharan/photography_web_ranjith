@@ -12,7 +12,7 @@ app.use(ejsLayouts)
 
 
 
-app.get('/',(req,res)=>{
+app.get('/api/',(req,res)=>{
 
     res.render('index',{ layout: 'layouts/userLayout' })
 })
